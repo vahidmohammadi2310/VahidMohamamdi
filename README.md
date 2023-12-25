@@ -6,7 +6,7 @@ for run project follow below command:
 4- docker exec php_blog php artisan migrate --seed
 5- docker exec php_blog php artisan key:generate
 6- sudo chown www-data:www-data src/storage
---------------------------------------------------------
+
 
 in this project i have two user
 1- first 
@@ -17,7 +17,7 @@ in this project i have two user
   user: user@test.como
   pass: user123
   role: user
-  -------------------------------------------------
+
 
   if you want create new custom user with User role, you can type follow url:
     /register 
