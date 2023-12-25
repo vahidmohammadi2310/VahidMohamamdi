@@ -13,7 +13,6 @@ class ArticleObserver
      */
     public function creating(Article $article): void
     {
-        dd('inja');
         $article->author_id = Auth::id();
     }
 
