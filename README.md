@@ -5,7 +5,7 @@ for run project follow below command: <br>
 3- docker exec php_blog composer install <br>
 4- docker exec php_blog php artisan migrate --seed <br>
 5- docker exec php_blog php artisan key:generate <br>
-6- sudo chown www-data:www-data src/storage <br>
+6- docker exec php_blog chown -R www-data:www-data storage <br>
 <br>
 <br>
 in this project i have two user <br>
