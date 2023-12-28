@@ -7,6 +7,7 @@ for run project follow below command: <br>
 5- docker exec php_blog php artisan key:generate <br>
 6- docker exec php_blog chown -R www-data:www-data storage <br>
 <br>
+PORT : 8013
 <br>
 in this project i have two user <br>
 1- first <br>
